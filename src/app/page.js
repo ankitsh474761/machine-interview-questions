@@ -74,7 +74,7 @@ export default function Home() {
     <div className="m-10">
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
         { data?.map((ele,i)=>(
-          <div className={`w-[300px] cursor-pointer hover:shadow-2xl h-[200px] shadow-md flex items-center justify-center ${ele?.class}`} onClick={()=> router.push(ele?.link)}>
+          <div key={ele} className={`w-[300px] cursor-pointer hover:shadow-2xl h-[200px] shadow-md flex items-center justify-center ${ele?.class}`} onClick={()=> router.push(ele?.link)}>
              {ele?.name}
             </div>
         ))}
