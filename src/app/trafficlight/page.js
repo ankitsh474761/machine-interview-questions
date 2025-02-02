@@ -15,6 +15,7 @@ const TrafficLight = () => {
     <div className={styles.container}>
       {color?.map((_, i) => (
         <div
+        key={i}
           className={`${styles.circleContainer} ${
             i === isActive ? styles[color[isActive]] : "gray"
           }`}
