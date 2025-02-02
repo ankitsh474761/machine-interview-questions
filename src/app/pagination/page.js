@@ -31,7 +31,7 @@ const InterviewQuestion4 = () => {
               className="product-container-item bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
             >
               <div className="product-image">
-                <img
+                <Image
                   src={prod?.thumbnail}
                   width={300}
                   height={200}
