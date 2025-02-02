@@ -1,0 +1,36 @@
+.stepperContainer{
+    display: flex;
+    align-items: center;
+    margin: 4rem;
+    gap: 2rem;
+}
+.stepperNumber{
+    position: relative;
+    border-radius: 100%;
+    background-color: grey;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.stepperLine{
+    width: 4px;
+    animation: all 1s ease-in;
+    height: 4.5rem;
+    background-color: black;
+    position: absolute;
+    top: 100%;
+}
+.activeNo{
+    background-color: rgb(91, 91, 252);
+}
+.activeLine{
+    background-color: green;
+}
+.stepperContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

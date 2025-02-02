@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+
+}
+
+.otpInput{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border : 2px solid red
+}
+.otpInput:focus{
+  border-color: black;
+}

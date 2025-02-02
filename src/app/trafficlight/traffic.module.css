@@ -1,0 +1,21 @@
+.container{
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.circleContainer{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: gray;
+    border-color: black;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
